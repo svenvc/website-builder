@@ -1,11 +1,12 @@
 body {
   background-color: #D8D8D8 !important;
   color: #525252 !important;
+  font-family: sans-serif;
+  font-size: 150%;
   line-height: 1.1;
   max-width: 85%;
-  margin: 3em;
-  font-size: 150%;
-  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p {
@@ -14,40 +15,46 @@ p {
 
 /* https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/ */
 * + * {
-  margin-top: 1.2em;
+  margin-top: 1.2rem;
 }
 
 h1 {
-    font-size: 4em;
-    color: Black;
+  font-size: 4rem;
+  color: Black;
 }
+
 h2 {
-  font-size: 3em;
+  font-size: 3rem;
 }
+
 h3 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
+
 h4 {
-  font-size: 2em;
+  font-size: 2rem;
 }
+
 h5 {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
+
 h6 {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 a {
   color: SlateGray;
   text-decoration: underline;
 }
+
 a:visited {
   color: LightSlateGray;
 }
 
 hr {
-  margin-top: 3em;
-  margin-bottom: 2em;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   color: Silver;
   border: 1px solid;
 }
